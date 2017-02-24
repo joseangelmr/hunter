@@ -1,10 +1,13 @@
 import initialState from './initialState';
 import { reducer as startScanReducer } from './../actions/startScan'
 import { reducer as stopScanReducer } from './../actions/stopScan'
+import { reducer as initializeWifiReducer } from './../actions/initializeWifi'
+
 
 const reducers = [
   startScanReducer,
-  stopScanReducer
+  stopScanReducer,
+  initializeWifiReducer
 ];
 
 export default function reducer(state = initialState, action) {
