@@ -1,0 +1,3 @@
+export const UPDATE_SCAN_LIST = "UPDATE_SCAN_LIST"
+export const STOP_SCAN = "STOP_SCAN"
+export const INITIALIZING_SCAN = "INITIALIZING_SCAN"
